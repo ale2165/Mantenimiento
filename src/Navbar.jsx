@@ -14,6 +14,12 @@ function Navbar() {
         <li>
           <Link to="/administrar-tareas">Administrar Tareas</Link> {/* Enlace para administrar tareas */}
         </li>
+        <li>
+          <Link to="/login">Login</Link> {/* Enlace para iniciar sesión */}
+        </li>
+        <li>
+          <Link to="/SignUp">Registrarse</Link> {/* Enlace para Registrarse */}
+        </li>
       </ul>
     </nav>
   );
