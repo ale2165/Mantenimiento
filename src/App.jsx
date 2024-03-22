@@ -14,6 +14,7 @@ function App() {
           {/* <Route exact path="/" component={Home} /> */} {/* Página de inicio */}
           <Route path="/registro-tecnico" component={TechnicianRegistration} /> {/* Registro de técnicos */}
           <Route path="/administrar-tareas" component={AdminTasksManagement} /> {/* Administración de tareas */}
+          <Route path="/login" component={LoginForm} /> {/* Formulario de login */}
         </Switch>
       </div>
     </Router>
