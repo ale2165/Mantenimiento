@@ -5,6 +5,8 @@ import Navbar from './Navbar'; // Importa tu componente de barra de navegación 
 import TechnicianRegistration from './TechnicianRegistration'; // Importa tu componente de registro de técnicos aquí
 import AdminTasksManagement from './AdminTaskManagement'; // Importa tu componente de administración de tareas aquí
 import LoginForm from './LoginForm'; //Importar mi componente de Login
+import SignUpForm from './SignupForm'; // Importar el formulario para registrarse
+
 
 function App() {
   return (
@@ -16,6 +18,7 @@ function App() {
           <Route path="/registro-tecnico" component={TechnicianRegistration} /> {/* Registro de técnicos */}
           <Route path="/administrar-tareas" component={AdminTasksManagement} /> {/* Administración de tareas */}
           <Route path="/login" component={LoginForm} /> {/* Formulario de login */}
+          <Route path=" /SignUp"  component={SignUp} /> {/* Componenete para iniciar sesion*/}
         </Switch>
       </div>
     </Router>
