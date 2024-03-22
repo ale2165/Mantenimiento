@@ -4,6 +4,7 @@ import Navbar from './Navbar'; // Importa tu componente de barra de navegación 
 // import Home from './Home'; // Importa tu componente de página de inicio u otra página principal aquí
 import TechnicianRegistration from './TechnicianRegistration'; // Importa tu componente de registro de técnicos aquí
 import AdminTasksManagement from './AdminTaskManagement'; // Importa tu componente de administración de tareas aquí
+import LoginForm from './LoginForm'; //Importar mi componente de Login
 
 function App() {
   return (
